@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ObsGen</title>
+	<link rel="stylesheet" href="estilo.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003384;
+            color: white;
+            padding: 10px 15px;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+       /* .column {
+            flex: 50%; /* Dos columnas del mismo tamaño */
+       /*     padding: 10px;
+        }*/
+        footer {
+            background-color: #002663;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position:fixed;
+            width: 100%;
+            bottom: -10%;
+        }
+		/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    .violencias {
+}
+    </style>
+</head>
+<body>
+
+<header>
+   <h1>Observatorio de violencias de género</h1>
+    <nav>
+		<ul class="menu-horizontal">
+			<li><a href="Index.html">Inicio</a></li>
+			<li><a href="sesnp.html">SESNSP</a></li>
+			<li><a href="Endireh.html">Endireh</a></li>
+			<li><a href="salud.html">Secretaria Salud</a></li>
+			<li><a href="creditos.html">Créditos</a></li>
+
+		</ul>
+	</nav>
+</header>
+
+ <div class="row">
+  <div class="column left" style="background-color: #feffff;">
+    <h2>Endireh</h2>
+    <p>La Encuesta Nacional sobre la Dinámica de las Relaciones en los Hogares (ENDIREH),informa sobre la situación de violencia contra las mujeres en México generada por el Instituto Nacional de Estadística y Geografía (INEGI), en el marco del Subsistema Nacional de Información de Gobierno, Seguridad Pública e Impartición de Justicia (SNIGSPIJ). La ENDIREH ofrece información sobre las experiencias de violencia física, económica, sexual, psicológica y patrimonial que han enfrentado las mujeres de 15 años y más en diferentes ámbitos de su vida. Asimismo, presenta datos sobre las personas agresoras y los lugares donde ocurrieron las agresiones, así como variables adicionales que permiten analizar la violencia contra las mujeres en México. Por su relevancia, la ENDIREH fue declarada Información de Interés Nacional por la Junta de Gobierno del INEGI en diciembre del 2015.</p>
+  </div>
+  <div class="column right" style="background-color: #feffff;">
+    <h2>Resultados</h2>
+  	<ul style="list-style-type:none; background-color: white; text-decoration: none;padding:inherit;font-size: 20px"> 
+	   	<li><a style="text-decoration: none;"  href="Endireh1.html">Situación de la violencia en mujeres de 15 años</a></li>
+		<li><a style="text-decoration: none;"  href="#">Tasas de violencias en mujeres de 15 años y más, según ámbito de ocurrencia</a></li>
+		<li><a style="text-decoration: none;"  href="#">Situación de la violencia en mujeres de 15 años y más a lo largo de su vida</a></li>
+		<li><a style="text-decoration: none;"  href="#">Tasas de violencias a lo largo de su vida en mujeres de 15 años y más, según ambito de ocurrencia</a></li>
+	</ul>
+	</div> 
+	
+</div>	
+	
+
+	
+<footer>
+    <p>© 2024 Observatorio de Violencias de Género</p>
+</footer>
+
+</body>
+</html>

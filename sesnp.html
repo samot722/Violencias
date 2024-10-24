@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ObsGen</title>
+	<link rel="stylesheet" href="estilo.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003384;
+            color: white;
+            padding: 10px 15px;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+       /* .column {
+            flex: 50%; /* Dos columnas del mismo tamaño */
+       /*     padding: 10px;
+        }*/
+        footer {
+            background-color: #002663;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position:fixed;
+            width: 100%;
+            bottom: -10%;
+        }
+		/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    .violencias {
+}
+    </style>
+</head>
+<body>
+
+<header>
+   <h1>Observatorio de violencias de género</h1>
+   <nav>
+		<ul class="menu-horizontal">
+			<li><a href="Index.html">Inicio</a></li>
+			<li><a href="sesnp.html">SESNSP</a></li>
+			<li><a href="Endireh.html">Endireh</a></li>
+			<li><a href="salud.html">Secretaria Salud</a></li>
+			<li><a href="creditos.html">Créditos</a></li>
+
+		</ul>
+	</nav>
+</header>
+
+ <div class="row">
+  <div  class="column left" style="background-color: #feffff;">
+    <h2>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</h2>
+    <p>&nbsp;Se utilizo la base de datos referente a incidencia delictiva, disponible en:&nbsp;https://www.gob.mx/sesnsp/acciones-y-programas/incidencia-delictiva-299891?state=published
+	  </p>
+    <p>&nbsp;La incidencia delictiva se refiere a la presunta ocurrencia de delitos registrados en averiguaciones previas iniciadas o carpetas de investigación, reportadas por las Procuradurías de Justicia y Fiscalías Generales de las entidades federativas en el caso del fuero común y por la Fiscalía General de la República en el fuero federal.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+<p>&nbsp;</p>
+  </div>
+  <div class="column right" style="background-color: #feffff;">
+    <h2>Resultados</h2>
+  	  <ul style="list-style-type:none; background-color: white; text-decoration: none;padding:inherit;font-size: 20px"> 
+	   	<li><a style="text-decoration: none;" href="feminicidios.html"> Histórico de feminicidios en México </a></li>
+		<li><a style="text-decoration: none;" href="feminicidiosM.html"> Histórico de feminicidios en México a nivel municipal</a></li>
+		<li><a style="text-decoration: none;" href="delitos.html">Carpetas de investigacion de delitos contra mujeres</a></li>
+		<li><a style="text-decoration: none;" href="homicidios.html">Histórico de homicidios dolosos en mujeres </a></li>
+	</ul>
+	</div> 
+	
+</div>	
+	
+
+	
+<footer>
+   <p>© 2024 Observatorio de Violencias de Género</p>
+</footer>
+
+</body>
+</html>
